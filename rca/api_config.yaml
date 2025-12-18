@@ -1,4 +1,4 @@
-SOURCE:   "OpenAI"
-MODEL:    "gpt-4o-2024-05-13"
-API_KEY:  "sk-xxxxxxxxxxxxxx"
-API_BASE: ""
+SOURCE:   "AI"  # 使用 "AI" 表示 OpenAI 兼容的 API（包括 vLLM）
+MODEL:    "Qwen/Qwen3-8B"  # 本地模型名称（与 vLLM serve 中的 --model 一致）
+API_KEY:  "EMPTY"  # vLLM 不需要 API Key，但必须设置一个值
+API_BASE: "http://localhost:8000/v1"  # vLLM 默认地址

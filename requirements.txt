@@ -8,3 +8,4 @@ protobuf==5.28.3
 pytz==2022.7
 PyYAML==6.0.2
 tiktoken==0.7.0
+vllm==0.6.4.post1
